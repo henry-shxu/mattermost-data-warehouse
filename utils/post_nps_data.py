@@ -33,7 +33,8 @@ try:
     nps.last_feedback_DATE = CURRENT_DATE - 1 and subcategory <> 'Invalid' and 
     feedback <> ''
     '''
-
+    # hi world
+    
     cur.execute(sql)
     out = cur.fetchall()
     out = tuple(map(lambda x: format_row(x) , out))
